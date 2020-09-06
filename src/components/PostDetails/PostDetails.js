@@ -45,7 +45,7 @@ const PostDetails = () => {
                         comments.map(comment =><Comments comment={comment} key={comment.id}></Comments>)
                     }
 
-                    <Link to="/"><button className="main-btn">Back to Feed</button></Link>
+                    <Link to="/"><button className="main-btn" style={{marginBottom:"10px"}}>Back</button></Link>
                </div>
                     
             
